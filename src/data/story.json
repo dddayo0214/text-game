@@ -1,0 +1,214 @@
+{
+  "start": {
+    "text": "你站在一個分岔路口。左邊是森林，右邊是村莊。",
+    "options": [
+      {
+        "text": "進入森林",
+        "next": "forest"
+      },
+      {
+        "text": "前往村莊",
+        "next": "village"
+      }
+    ]
+  },
+  "forest": {
+    "text": "森林陰暗潮濕，你聽到遠處有狼嚎聲。",
+    "options": [
+      {
+        "text": "繼續前進",
+        "next": "deep_forest"
+      },
+      {
+        "text": "返回",
+        "next": "start"
+      }
+    ]
+  },
+  "deep_forest": {
+    "text": "你走進了更深的森林，樹木繁茂，陰影籠罩著四周。突然，你發現一個小屋。",
+    "options": [
+      {
+        "text": "進入小屋",
+        "next": "cabin"
+      },
+      {
+        "text": "繼續探索森林",
+        "next": "lost_forest"
+      },
+      {
+        "text": "返回",
+        "next": "forest"
+      }
+    ]
+  },
+  "cabin": {
+    "text": "小屋裡空無一人，只有一張破舊的桌子，上面擺著一本古老的書。你翻開書，發現它記錄著一段神秘的預言。",
+    "options": [
+      {
+        "text": "帶著書離開",
+        "next": "deep_forest"
+      },
+      {
+        "text": "閱讀預言",
+        "next": "prophecy"
+      },
+      {
+        "text": "返回",
+        "next": "deep_forest"
+      }
+    ]
+  },
+  "lost_forest": {
+    "text": "你在森林中迷失了方向，四周一片寂靜，只有樹葉沙沙作響。你決定返回。",
+    "options": [
+      {
+        "text": "返回",
+        "next": "forest"
+      }
+    ]
+  },
+  "prophecy": {
+    "text": "書中預言了將有一位勇者會從這片森林中走出，改變世界的命運。你感到一股強烈的力量，似乎命運已經選擇了你。",
+    "options": [
+      {
+        "text": "繼續探索森林",
+        "next": "ancient_tree"
+      },
+      {
+        "text": "離開小屋",
+        "next": "deep_forest"
+      }
+    ]
+  },
+  "village": {
+    "text": "村莊裡很熱鬧，市場上人來人往。你看到一個酒館，裡面似乎很有趣。",
+    "options": [
+      {
+        "text": "去酒館",
+        "next": "tavern"
+      },
+      {
+        "text": "回到路口",
+        "next": "start"
+      }
+    ]
+  },
+  "tavern": {
+    "text": "酒館裡氣氛熱烈，你看到一群人圍著桌子玩骰子。一位老者邀請你一起加入遊戲。",
+    "options": [
+      {
+        "text": "加入遊戲",
+        "next": "dice_game"
+      },
+      {
+        "text": "拒絕並離開",
+        "next": "village"
+      }
+    ]
+  },
+  "dice_game": {
+    "text": "你和老者玩了一會骰子遊戲，結果你贏得了一筆豐厚的獎金！他告訴你，這是命運的獎勳，讓你有更多選擇。",
+    "options": [
+      {
+        "text": "繼續待在村莊",
+        "next": "village"
+      },
+      {
+        "text": "前往森林",
+        "next": "forest"
+      }
+    ]
+  },
+  "ancient_tree": {
+    "text": "在森林深處，你發現了一棵古老的樹，樹幹上有神秘的符號。你覺得這棵樹可能擁有解開命運謎題的力量。",
+    "options": [
+      {
+        "text": "觸摸樹幹",
+        "next": "tree_power"
+      },
+      {
+        "text": "繼續探索",
+        "next": "deep_forest"
+      },
+      {
+        "text": "返回",
+        "next": "prophecy"
+      }
+    ]
+  },
+  "tree_power": {
+    "text": "你觸摸到樹幹，一股強烈的能量流入你的體內。樹木的符號開始閃爍，似乎賦予你特殊的能力。",
+    "options": [
+      {
+        "text": "使用新能力探索",
+        "next": "mystic_forest"
+      },
+      {
+        "text": "返回",
+        "next": "ancient_tree"
+      }
+    ]
+  },
+  "mystic_forest": {
+    "text": "你的新能力讓你能夠感知到森林中的隱藏之物。你找到了一條隱秘的道路通向更深的地方。",
+    "options": [
+      {
+        "text": "深入探索",
+        "next": "secret_lair"
+      },
+      {
+        "text": "返回",
+        "next": "ancient_tree"
+      }
+    ]
+  },
+  "secret_lair": {
+    "text": "你發現一個隱秘的地下洞窟，裡面充滿了古老的寶藏和神秘的符文。這似乎是命運的終極考驗。",
+    "options": [
+      {
+        "text": "進入洞窟",
+        "next": "final_choice"
+      },
+      {
+        "text": "返回",
+        "next": "mystic_forest"
+      }
+    ]
+  },
+  "final_choice": {
+    "text": "洞窟內有一個巨大的寶箱。打開它後，你必須選擇一條道路：追求無盡的力量或保護世界免受破壞。",
+    "options": [
+      {
+        "text": "追求力量",
+        "next": "power"
+      },
+      {
+        "text": "保護世界",
+        "next": "hero"
+      }
+    ]
+  },
+  "power": {
+    "text": "你選擇了追求力量，成為了無敵的存在，但失去了人性。你永遠孤獨。",
+    "options": [
+      {
+        "text": "結束遊戲",
+        "next": "end"
+      }
+    ]
+  },
+  "hero": {
+    "text": "你選擇了保護世界，成為了真正的英雄。你帶領世界走向和平與繁榮。",
+    "options": [
+      {
+        "text": "結束遊戲",
+        "next": "end"
+      }
+    ]
+  },
+  "end": {
+    "text": "遊戲結束，感謝遊玩！",
+    "options": []
+  }
+}
