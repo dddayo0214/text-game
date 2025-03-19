@@ -27,28 +27,93 @@
 }
 
 .game-container {
-    width: 600px;
-    /* Set a more appropriate width for the game container */
-    height: 600px;
-    /* Keep the height fixed */
-    margin: auto;
-    /* Center the container */
-    padding: 10px;
-    /* Adjust padding */
+    width: 90%;
+    max-width: 40rem;
+    min-height: 30rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
 }
 
 .animate-text {
-    font-size: 20px;
-    /* Increase font size for animated text */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .options button {
-    width: auto;
-    /* Allow buttons to take their natural size */
-    font-size: 18px;
-    /* Increase font size for buttons */
-    padding: 15px;
-    /* Increase padding for buttons */
-    margin-top: 30px;
-    /* Maintain margin to push buttons lower */
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 媒體查詢 - 平板設備 */
+@media (max-width: 768px) {
+    .game-container {
+        max-width: 90%;
+        min-height: 25rem;
+    }
+
+    .animate-text {
+        font-size: 1.1rem;
+    }
+
+    .options button {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
+
+/* 媒體查詢 - 手機設備 */
+@media (max-width: 480px) {
+    .game-container {
+        min-height: auto;
+        padding: 0.8rem;
+        margin: 1rem auto;
+    }
+
+    .animate-text {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .options {
+        gap: 0.8rem;
+    }
+
+    .options button {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+        margin-top: 1rem;
+        border-radius: 0.4rem;
+    }
+
+    /* 橫屏模式 */
+    @media (orientation: landscape) {
+        .game-container {
+            min-height: 15rem;
+        }
+
+        .options {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .options button {
+            width: 48%;
+            margin: 0.2rem;
+        }
+    }
 }
