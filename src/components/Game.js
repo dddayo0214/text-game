@@ -39,7 +39,7 @@ export default function Game() {
             </div>
 
             {/* 若遊戲結束，顯示重新開始選項 */}
-            {currentScene === "end" && (
+            {currentScene.includes("end") && (
                 <button className="restart" onClick={() => setCurrentScene("start")}>
                     重新開始
                 </button>
