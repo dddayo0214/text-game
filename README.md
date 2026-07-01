@@ -1,71 +1,115 @@
-made with cline + deepseek
-# Getting Started with Create React App
+# 📖 Text Adventure Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一款使用 **React + Vite** 製作的互動式文字冒險遊戲（Choose Your Own Adventure）。
 
-## Available Scripts
+玩家將透過閱讀劇情、做出選擇，逐步推進故事，不同的選項將導向不同的劇情發展與結局。
 
-In the project directory, you can run:
+🌐 **Live Demo**
+https://text-game-omega.vercel.app/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📷 Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="580" height="471" alt="image" src="https://github.com/user-attachments/assets/8269566c-a57b-4898-a610-a73466640f6e" />
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 📖 沉浸式文字劇情
+- 🎮 多分支選項
+- 🌲 劇情依玩家選擇發展
+- ⚡ 即時切換故事內容
+- 💻 響應式網頁設計
+- 🎨 簡潔深色 UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎮 Gameplay
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+玩家將扮演一名考古學家。
 
-### `npm run eject`
+在探索神秘古墓時，意外觸發未知機關，被傳送到一片陌生森林。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+你的每一個選擇，都可能改變故事的走向。
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+你能找到真正的出口嗎？
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+- React
+- Vite
+- JavaScript
+- CSS3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Installation
 
-### Code Splitting
+Clone Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/dddayo0214/text-game.git
+```
 
-### Analyzing the Bundle Size
+Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run dev
+```
 
-### Advanced Configuration
+Build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📂 Project Structure
 
-### `npm run build` fails to minify
+```
+src/
+├── assets/
+├── App.jsx
+├── App.css
+├── main.jsx
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 💡 Why I made this?
+
+這個專案是我練習 React 狀態管理與互動式 UI 所製作的小遊戲。
+
+希望透過不同劇情分支，打造簡單但具有互動性的文字冒險體驗，同時學習如何將故事資料與畫面邏輯結合。
+
+---
+
+## 🚀 Future Plans
+
+- [ ] 更多故事章節
+- [ ] 多重結局
+- [ ] 存檔 / 讀檔
+- [ ] 打字機動畫效果
+- [ ] 背景音樂
+- [ ] 音效
+- [ ] 角色立繪
+- [ ] 劇情流程圖
+- [ ] JSON 劇情編輯器
+- [ ] 自訂劇情功能
+
+---
+
+## 📜 License
+
+MIT License
